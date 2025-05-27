@@ -1078,6 +1078,20 @@ section h2 {
         padding: 0.5rem 0.2rem;
         border-radius: 6px 6px 0 0;
     }
+    main, section, .container, .market-insights, .personas-section, .ui-showcase, .problem-current-ui, .market-summary-card, .context-intro {
+        padding-left: 1.2rem !important;
+        padding-right: 1.2rem !important;
+        box-sizing: border-box;
+    }
+    .hero-image-header, .hero-full-bg, .hero-image-header img {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        height: auto !important;
+        object-fit: contain !important;
+        object-position: top !important;
+        min-height: unset !important;
+        max-height: unset !important;
+    }
 }
 @media (max-width: 600px) {
     .ui-showcase img, .ui-image-container, .ui-image-container img {
@@ -1103,6 +1117,20 @@ section h2 {
         min-width: 0;
         padding: 0.3rem 0.1rem;
         border-radius: 6px 6px 0 0;
+    }
+    main, section, .container, .market-insights, .personas-section, .ui-showcase, .problem-current-ui, .market-summary-card, .context-intro {
+        padding-left: 0.7rem !important;
+        padding-right: 0.7rem !important;
+        box-sizing: border-box;
+    }
+    .hero-image-header, .hero-full-bg, .hero-image-header img {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        height: auto !important;
+        object-fit: contain !important;
+        object-position: top !important;
+        min-height: unset !important;
+        max-height: unset !important;
     }
 }
 
