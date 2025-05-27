@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediBuddy Home Screen Redesign - UX Case Study</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero-image-header">
+        <img src="image copy 4.png" alt="MediBuddy Home Screen Redesign Hero" class="hero-full-bg" />
+    </section>
+
+    <main>
+        <section class="context-intro">
+            <div class="context-text">
+                <p>The MediBuddy Home Screen Redesign aims to address the needs of urban Indian users by making healthcare services more accessible, intuitive, and business-aligned. This case study explores the challenges with the current UI and presents a user-centered solution that balances business priorities with real user pain points.</p>
+            </div>
+        </section>
+
+        <section class="problem-current-ui">
+            <h2>Problem with Current UI</h2>
+            <img src="image copy.png" alt="Current UI annotated screenshot" class="problem-ui-img" />
+            <div class="problem-cards problem-cards-modern">
+                <div class="problem-card-modern">
+                    <div class="problem-icon info"> <span>🛈</span> </div>
+                    <div>
+                        <div class="problem-title">Information Overload</div>
+                        <div class="problem-desc">With 10 distinct priority elements specified by the product team, users face cognitive load challenges navigating the interface.</div>
+                    </div>
+                </div>
+                <div class="problem-card-modern">
+                    <div class="problem-icon list"> <span>☰</span> </div>
+                    <div>
+                        <div class="problem-title">Prioritization Disconnects</div>
+                        <div class="problem-desc">Business prioritization may not align with user mental models, creating friction in service discovery.</div>
+                    </div>
+                </div>
+                <div class="problem-card-modern">
+                    <div class="problem-icon user"> <span>👤</span> </div>
+                    <div>
+                        <div class="problem-title">Personalization Limitation</div>
+                        <div class="problem-desc">While personalization is priority #2, effective implementation requires sophisticated user behavior analysis.</div>
+                    </div>
+                </div>
+                <div class="problem-card-modern">
+                    <div class="problem-icon arrow"> <span>↖</span> </div>
+                    <div>
+                        <div class="problem-title">Vertical Real Estate</div>
+                        <div class="problem-desc">Users typically don't scroll beyond 2-3 screens, yet the priority list suggests content extends beyond this threshold.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="market-insights">
+            <h2>Market Insights & Revenue Sources</h2>
+            <div class="market-summary-card">
+                <p>According to market research, the Indian diagnostics and health-tech market is rapidly growing, with pathology and eDiagnostics leading in market share. Revenue is primarily driven by <a href="https://www.statista.com/topics/12366/diagnostics-market-in-india/#topicOverview" target="_blank" rel="noopener">high-frequency, high-revenue services (P0)</a>, while <a href="https://srldiagnostics.in/franchise-radiology-labs/" target="_blank" rel="noopener">high-ticket, low-frequency services like Surgery Care</a> require strategic placement for growth.</p>
+            </div>
+            <table class="revenue-table styled-table">
+                <thead>
+                    <tr>
+                        <th><span class="table-icon">🩺</span> Service</th>
+                        <th><span class="table-icon">📊</span> User Frequency</th>
+                        <th><span class="table-icon">💰</span> Revenue Contribution</th>
+                        <th><span class="table-icon">🎯</span> Strategic Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="service-icon">🩺</span> Talk to Doctor</td>
+                        <td>High (65%)</td>
+                        <td class="revenue-high">38%</td>
+                        <td><span class="priority-badge p0">P0</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="service-icon">🧪</span> Book Lab Test</td>
+                        <td>Medium (47%)</td>
+                        <td class="revenue-medium">29%</td>
+                        <td><span class="priority-badge p0">P0</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="service-icon">💊</span> Buy Medicines</td>
+                        <td>High (72%)</td>
+                        <td class="revenue-high">41%</td>
+                        <td><span class="priority-badge p0">P0</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="service-icon">🏥</span> Surgery Care</td>
+                        <td>Low (9%)</td>
+                        <td class="revenue-low">18%</td>
+                        <td><span class="priority-badge p2">P2</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="service-icon">🦷</span> Vision/Dental</td>
+                        <td>Medium (23%)</td>
+                        <td class="revenue-low">12%</td>
+                        <td><span class="priority-badge p1">P1</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="personas-section personas-section-modern">
+            <h2>User Personas</h2>
+            <div class="personas-grid personas-modern">
+                <!-- Persona 1 -->
+                <div class="persona-card-modern">
+                    <div class="persona-img-wrap">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ananya" />
+                    </div>
+                    <div class="persona-info-wrap">
+                        <div class="persona-title"><span class="persona-icon">👩‍💼</span> Demographics:</div>
+                        <ul class="persona-list">
+                            <li><span class="persona-attr-icon">🎂</span> Age: 28</li>
+                            <li><span class="persona-attr-icon">📍</span> Mumbai</li>
+                            <li><span class="persona-attr-icon">💼</span> Marketing Manager</li>
+                        </ul>
+                        <div class="persona-title"><span class="persona-icon">🎯</span> Goals:</div>
+                        <ul class="persona-list">
+                            <li>Quick access to prescription refills</li>
+                            <li>Efficient lab test bookings</li>
+                        </ul>
+                        <div class="persona-title"><span class="persona-icon">📝</span> Needs:</div>
+                        <ul class="persona-list">
+                            <li>Personalized recommendations</li>
+                            <li>Easy family health management</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Persona 2 -->
+                <div class="persona-card-modern">
+                    <div class="persona-img-wrap">
+                        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Rajesh" />
+                    </div>
+                    <div class="persona-info-wrap">
+                        <div class="persona-title"><span class="persona-icon">👨‍🦳</span> Demographics:</div>
+                        <ul class="persona-list">
+                            <li><span class="persona-attr-icon">🎂</span> Age: 45</li>
+                            <li><span class="persona-attr-icon">📍</span> Delhi</li>
+                            <li><span class="persona-attr-icon">💼</span> Retired Banker</li>
+                        </ul>
+                        <div class="persona-title"><span class="persona-icon">🎯</span> Goals:</div>
+                        <ul class="persona-list">
+                            <li>Manage chronic conditions</li>
+                            <li>Coordinate family healthcare</li>
+                        </ul>
+                        <div class="persona-title"><span class="persona-icon">📝</span> Needs:</div>
+                        <ul class="persona-list">
+                            <li>Simple, clear interface</li>
+                            <li>Trustworthy information</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Persona 3 -->
+                <div class="persona-card-modern">
+                    <div class="persona-img-wrap">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Neha" />
+                    </div>
+                    <div class="persona-info-wrap">
+                        <div class="persona-title"><span class="persona-icon">👩‍👧‍👦</span> Demographics:</div>
+                        <ul class="persona-list">
+                            <li><span class="persona-attr-icon">🎂</span> Age: 34</li>
+                            <li><span class="persona-attr-icon">📍</span> Bangalore</li>
+                            <li><span class="persona-attr-icon">💼</span> Homemaker</li>
+                        </ul>
+                        <div class="persona-title"><span class="persona-icon">🎯</span> Goals:</div>
+                        <ul class="persona-list">
+                            <li>Compare medicine prices</li>
+                            <li>Manage family health records</li>
+                        </ul>
+                        <div class="persona-title"><span class="persona-icon">📝</span> Needs:</div>
+                        <ul class="persona-list">
+                            <li>Easy repeat orders</li>
+                            <li>Family-focused features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ui-showcase">
+            <h2>Updated UI Showcase</h2>
+            <div class="ui-images">
+                <div class="ui-image-container"><img src="image.png" alt="Updated UI Design 1" /></div>
+                <div class="ui-image-container"><img src="image copy 2.png" alt="Updated UI Design 2" /></div>
+            </div>
+        </section>
+
+        <section class="interactive-prototype">
+            <h2>Interactive Prototype</h2>
+            <div class="figma-embed-container">
+                <iframe style="border: 1px solid #ccc; border-radius: 12px; width: 100%; min-height: 600px;" allowfullscreen src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/z1PiPXCjo20yP1IetbcoEp/Untitled?node-id=56-19563&t=K63sU1YQPdss5ixc-4"></iframe>
+                <p style="margin-top:1rem; text-align:center;">If you can't view the embed, <a href="https://www.figma.com/design/z1PiPXCjo20yP1IetbcoEp/Untitled?node-id=56-17031&t=K63sU1YQPdss5ixc-1" target="_blank" rel="noopener">click here to open the Figma prototype in a new tab</a>.</p>
+            </div>
+        </section>
+
+        <section class="conclusion">
+            <h2>Conclusion</h2>
+            <p>The redesigned home screen addresses user needs while supporting business growth through:</p>
+            <ul>
+                <li>Improved service accessibility</li>
+                <li>Enhanced personalization</li>
+                <li>Better family health management</li>
+                <li>Strategic service prioritization</li>
+                <li>Clear visual hierarchy</li>
+                <li>Intuitive navigation</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Made with <span style="color:#FF4B4B;font-size:1.2em;">❤️</span> by Shantanu</p>
+    </footer>
+</body>
+</html> 
